@@ -1,0 +1,207 @@
+.navigation-row{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    padding-top: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+.ktu-logo{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.ktu-logo img{
+    cursor: pointer;
+    height: 60.3px;
+}
+.navigation{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-left: 20px;
+    column-gap: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.navigation p:hover{
+    color: #8b0051;
+}
+
+.image-slider-container{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    overflow: hidden;
+}
+.image-slider-wrapper{
+    display: flex;
+    animation: slide 25s infinite;
+    width: 100%;
+}
+.image-slider-wrapper img{
+    width: 100%;
+}
+@keyframes slide {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    16.666%, 20% {
+        transform: translateX(-100%);
+    }
+    33.333%, 40% {
+        transform: translateX(-200%);
+    }
+    50%, 60% {
+        transform: translateX(-300%);
+    }
+    66.666%, 80% {
+        transform: translateX(-400%);
+    }
+    83.333%, 100% {
+        transform: translateX(-500%);
+    }
+}
+
+.menu-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 100px;
+    font-family: Arial;
+    column-gap: 20px;
+}
+.e-govern,
+.results,
+.equivalency,
+.events-1,
+.affiliated{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    column-gap: 5px;
+    width: 220px;
+    height: 60px;
+    border: 2px solid;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.e-govern{
+    border-color: rgb(234, 184, 48);
+}
+.results{
+    border-color: rgb(30, 193, 217);
+}
+.equivalency{
+    border-color: rgb(48, 122, 213);
+}
+.events-1{
+    border-color: rgb(16, 196, 92);
+}
+.affiliated{
+    border-color: rgb(217, 77, 166);
+}
+
+.e-govern:hover{
+    background-color: rgb(234, 184, 48);
+    color: #ffffff;
+}
+.results:hover{
+    background-color: rgb(30, 193, 217);
+    color: #ffffff;
+}
+.equivalency:hover{
+    background-color: rgb(48, 122, 213);
+    color: #ffffff;
+}
+.events-1:hover{
+    background-color: rgb(16, 196, 92);
+    color: #ffffff;
+}
+.affiliated:hover{
+    background-color: rgb(217, 77, 166);
+    color: #ffffff;
+}
+
+.e-govern-icon i,
+.results-icon i,
+.equivalency-icon i,
+.events-1-icon i,
+.affiliated-icon i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.e-govern-icon i{
+    background-color: rgb(234, 184, 48);
+}
+.results-icon i{
+    background-color: rgb(30, 193, 217);
+}
+.equivalency-icon i{
+    background-color: rgb(48, 122, 213);
+}
+.events-1-icon i{
+    background-color: rgb(16, 196, 92);
+}
+.affiliated-icon i{
+    background-color: rgb(217, 77, 166);
+}
+
+.e-govern:hover i{
+    color: rgb(234, 184, 48);
+    background-color: #ffffff;
+}
+.results:hover i{
+    color: rgb(30, 193, 217);
+    background-color: #ffffff;
+}
+.equivalency:hover i{
+    color: rgb(48, 122, 213);
+    background-color: #ffffff;
+}
+.events-1:hover i{
+    color: rgb(16, 196, 92);
+    background-color: #ffffff;
+}
+.affiliated:hover i{
+    color: rgb(217, 77, 166);
+    background-color: #ffffff;
+}
+
+
+/* .e-govern-icon i:hover,
+.results-icon i:hover,
+.equivalency-icon i:hover,
+.events-1-icon i:hover,
+.affiliated-icon i:hover{
+    background-color: white;
+} */
+
+.e-govern-icon i:hover{
+    color: rgb(234, 184, 48);
+}
+.results-icon i:hover{
+    color: rgb(30, 193, 217);
+}
+.equivalency-icon i:hover{
+    color: rgb(48, 122, 213);
+}
+.events-1-icon i:hover{
+    color: rgb(16, 196, 92);
+}
+.affiliated-icon i:hover{
+    color: rgb(217, 77, 166);
+}

@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("https://ktu.edu.in/static/media/announcements_bg.ec430733.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial;
+    overflow-x: hidden;
+}
